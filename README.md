@@ -3,9 +3,13 @@
 ### WORKFLOWS AND JSONS
 This repository contains a few different files - each tuned for certain requirements. 
 
-├── 2T_Exome_NonDocker.json*&rarr;* Throughput JSON file \
-├── 56T_Exome_NonDocker.json *&rarr;* Latency JSON file \
-├── Exome_Workflow.wdl *&rarr; WDL optimized for on-prem
+├── 2T_Exome_NonDocker.json &rarr; Throughput JSON file \
+├── 56T_Exome_NonDocker.json &rarr; Latency JSON file \
+├── Exome_Workflow.wdl &rarr; WDL optimized for on-prem
+
+For the Exome_Workflow.wdl file, modify [Line 568](https://github.com/gatk-workflows/intel-gatk3-germline-snps-indels/blob/BIGstack/Exome_Workflow.wdl#L568) to the path where datasets reside in your cluster. 
+
+In the JSON files, modify the paths to the datasets and tools where they reside in your cluster.
 
 ### DATASETS
 Contact Intel/Broad for access to the WES data needed for this workflow.
@@ -31,6 +35,6 @@ root@54754360159e:/usr/gitc# exit
 
 In addition to above, the GATK3.8 workflow uses the latest optimized GATK3.8 jar 
 with AVX-512 optimizations and other optimizations which can be obtained from 
-GATK website. 
+[GATK website](https://software.broadinstitute.org/gatk/download/). 
 
-##placeholder for GATK 3.8 relaese
+
