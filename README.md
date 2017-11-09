@@ -33,8 +33,7 @@ root@54754360159e:/usr/gitc# cp /usr/local/bin/samtools bwa picard.jar /path/to/
 root@54754360159e:/usr/gitc# exit
 ```
 
-In addition to above, the GATK3.8 workflow uses the latest optimized GATK3.8 jar 
-with AVX-512 optimizations and other optimizations which can be obtained from 
-[GATK website](https://software.broadinstitute.org/gatk/download/). 
+In addition to above, this workflow uses the latest optimized GATK 3.8-1 jar with 
+optimizations which can be obtained from [GATK website](https://software.broadinstitute.org/gatk/download/). 
 
 
