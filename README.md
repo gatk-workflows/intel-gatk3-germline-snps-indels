@@ -7,7 +7,7 @@ This repository contains a few different files - each tuned for certain requirem
 ├── 56T_Exome_NonDocker.json &rarr; Latency JSON file \
 ├── Exome_Workflow.wdl &rarr; WDL optimized for on-prem
 
-For the Exome_Workflow.wdl file, modify [Line 568](https://github.com/gatk-workflows/intel-gatk3-germline-snps-indels/blob/BIGstack/Exome_Workflow.wdl#L568) to the path where datasets reside in your cluster. 
+For the Exome_Workflow.wdl file, modify [Line 568](https://github.com/gatk-workflows/intel-gatk3-germline-snps-indels/blob/master/Exome_Workflow.wdl#L568) to the path where datasets reside in your cluster. 
 
 In the JSON files, modify the paths to the datasets and tools where they reside in your cluster.
 
